@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--White);
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: var( --Darkgrayishblue);
+}
+
+:root{
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Verylightgrayishblue: hsl(210, 60%, 98%);
+    --Lightgrayishblue1: hsl(211, 68%, 94%);
+    --Lightgrayishblue2: hsl(205, 33%, 90%);
+    --Grayishblue: hsl(219, 14%, 63%);
+    --Darkgrayishblue: hsl(219, 12%, 42%);
+    --Verydarkblue: hsl(224, 21%, 14%);
+
+}
+
+
+.container{
+    width: 40vw;
+    background-color: var(--Verylightgrayishblue1);
+    padding: 5rem;
+    border-radius: 5px;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.notification {
+    
+   
+  display: flex;
+  align-items: center;
+    gap: 1rem;
+}
+.notification span{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 800;
+    
+}
+.notification button{
+    padding: 0.1rem 0.7rem;
+    font-size:1rem;
+    font-weight: 800;
+    background-color: var(--Blue);
+    color: var(--White);
+    border-radius: 5px;
+}
+
+.noti span{
+    cursor: pointer;
+}
+
+
+.header2{
+    margin-top: 2rem;
+    width: 40vw;
+    
+    
+
+}
+
+.msgDetail{
+    
+    width: 40vw;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.msg{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40vw;
+    
+    
+    
+    
+    
+}
+
+.msgDetail img{
+    width: 2.5rem;
+}
+
+.msgDetails{
+    display: flex;
+    gap: 10px;
+        
+
+}
+
+.msgDetails span{
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+.msgDetails span:hover{
+    color: var(--Blue);
+}
+
+
+
+.nathon{
+    display: flex;
+}
+
+.msgDetailsnathon{
+    display: flex;
+}
+
+.msgDetailsnathon span{
+    display: flex
+}
+
+
+
+
+
